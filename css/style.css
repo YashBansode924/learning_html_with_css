@@ -7,3 +7,11 @@ p{
     border: solid 12px;
     border-radius: 10px;
 }
+#div1{
+    height: 33.33%;
+    width: 33.33%;
+    border: solid 12px;
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+}
