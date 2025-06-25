@@ -1,0 +1,79 @@
+   .h1:hover{
+     color: aqua;
+     background-color: blue;
+     text-shadow: 3px 2px 3px violet;
+
+    }
+    .h1{
+        color: red;
+        background-color: black;
+        text-shadow: 3px 2px 3px whitesmoke;
+    }
+    button:active{
+        color: white;
+     background-color: black;
+     text-shadow: 2px 1px 2px wheat;
+     border-radius: 20px;
+     padding: 20px;
+     margin: 0%;
+    }
+    button{
+     color: blue;
+     background-color: red;
+     text-shadow: 2px 1px 2px wheat;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 0%;
+     cursor: pointer;
+     align-items: center;
+
+    }
+    a:visited{
+        color: black;
+
+    }
+    input:focus{
+        background-color: yellowgreen;
+        cursor: pointer;
+
+    }
+    ul{
+        width: 500px;
+        height:fit-content ;
+        list-style: none;
+    }
+    li{
+        border-radius: 10px;
+        border: solid brown;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    li:nth-child(even){
+        border-color: aquamarine;
+        background-color: aquamarine;
+    }
+    li:nth-child(odd){
+        background-color: brown;
+    }
+    li:first-child{
+        color: white;
+    }
+    li:last-child{
+        background-color: blue;
+        color: white;
+    }
+    input[type="text"]{
+        border: 3px solid rgb(245, 233, 12);
+        border-radius: 0.5em;
+        width: 105px;
+        height: 2em;
+        color: aquamarine;
+        background-color: black;
+    }
+    input[placeholder]{
+        background-color: blueviolet;
+        color: aqua;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
