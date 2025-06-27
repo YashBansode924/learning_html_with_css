@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        animation:  abc;
+        animation-direction:alternate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes abc{
+        0%{background-color: red;left: 0px;top: 0px;}
+        25%{background-color: black;left: 300px;top: 0px;}
+        50%{background-color: blue;left: 300px;top: 300px;}
+        75%{background-color: chocolate;left: 0px;top: 300px;}
+        100%{background-color: red;left: 0px;top: 0px;}
+    }
+</style>
+<body>
+    <div></div>
+</body>
+</html>
